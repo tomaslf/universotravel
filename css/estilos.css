@@ -9,10 +9,7 @@
    
     
 }
-body{
-    background-color: black;
-   
-}
+
 nav{
     background-color: whitesmoke;
 }
@@ -33,17 +30,26 @@ nav{
     margin-bottom: 50px;
 
 }
+.cardContainer{
+    background-color: white;
+    padding: 20px;
+}
+.cardContainer h2{
+    text-align: center;
+    font-size: 45px;
+    
+}
 .container{
- 
     position: relative;
-    margin-top: 10px;
     width: 1000px;
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
 }
 .container .card {
-    position: relative;
+  position: relative;
+  border: none;
+
 
 }
 .container .card .face{
@@ -53,7 +59,7 @@ nav{
 
 .container .card .face.face1{
     position: relative;
-    background: black;
+    background: white;
     display: flex;
     justify-content: center;
     align-content: center;
@@ -67,13 +73,11 @@ nav{
     inset 0 0 60px whitesmoke,
     inset 20px 0 80px rgba(255, 0, 0, 0.788),
     inset -20px 0 80px rgb(242, 243, 243),
-  
-    
     0 0 50px #fff,
 
 }
 .container .card .face.face1 .content{
-    opacity: .2;
+   
     transition: 0.5s;
     text-align: center;
 }
@@ -102,4 +106,46 @@ nav{
 }
 .container .card:hover .face.face2{
     transform:translateY(0)
+}
+#conocenos{
+    background-image: linear-gradient(black, rgba(0, 0, 0, 0.6)), url('../images/rutanorte.jpg');
+    background-position: center;
+    color: white;
+    text-align: center;
+    height: 400px;
+}
+.conocenosTitulo{
+    font-size: 45px;
+    color: white;
+    font-weight: bold;
+}
+#conocenos p{
+    font-weight: lighter;
+}
+
+#footer{
+    
+  
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgba(255, 0, 0, 0.923);
+  
+    
+
+}
+#footer ul li{
+    text-decoration: none;
+    list-style: none;
+   
+    
+}
+
+
+.logoWp{
+    position: fixed;
+    line-height: 55px;
+    bottom: 50px;
+    right: 30px;
+    z-index: 100;
 }
