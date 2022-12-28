@@ -6,6 +6,7 @@
     margin: 0;
     padding: 0;
     font-family: xbka;
+    color: black;
    
     
 }
@@ -33,6 +34,7 @@ nav{
 .cardContainer{
     background-color: white;
     padding: 20px;
+   
 }
 .cardContainer h2{
     text-align: center;
@@ -41,7 +43,7 @@ nav{
 }
 .container{
     position: relative;
-    width: 1000px;
+    
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
@@ -49,7 +51,7 @@ nav{
 .container .card {
   position: relative;
   border: none;
-
+  background-color: white;
 
 }
 .container .card .face{
@@ -59,7 +61,7 @@ nav{
 
 .container .card .face.face1{
     position: relative;
-    background: white;
+    background-color: rgb(234, 210, 210);
     display: flex;
     justify-content: center;
     align-content: center;
@@ -108,24 +110,51 @@ nav{
     transform:translateY(0)
 }
 #conocenos{
-    background-image: linear-gradient(black, rgba(0, 0, 0, 0.6)), url('../images/rutanorte.jpg');
-    background-position: center;
-    color: white;
+    
+    background-position:center;
+    
+    color: black;
     text-align: center;
     height: 400px;
 }
 .conocenosTitulo{
     font-size: 45px;
-    color: white;
+    color: black;
     font-weight: bold;
 }
 #conocenos p{
     font-weight: lighter;
 }
 
-#footer{
+section h2{
+    text-align:center;
+    margin-top: 10px;
+}
+.card-group{
+    gap: 15px;
+    padding: 30px;
     
-  
+}
+.card-group .card{
+    border: none;
+   
+}
+.card-group .card:hover{
+    box-shadow: 0px 0px 10px black;
+}
+.card-img-top{
+    height: 300px;
+ 
+}
+.card-group .card h5{
+    font-size: 25px;
+}
+
+
+
+
+
+#footer{
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -148,4 +177,20 @@ nav{
     bottom: 50px;
     right: 30px;
     z-index: 100;
+}
+
+@media (min-width: 320px) and (max-width: 480px){
+    .container{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        align-content: center;
+    }
+}
+
+@media (min-width: 481px) and (max-width: 768px){
+
+}
+@media (min-width: 769px) and (max-width: 1023px){
+
 }
