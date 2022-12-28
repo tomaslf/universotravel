@@ -186,6 +186,9 @@ section h2{
         align-items: center;
         align-content: center;
     }
+    header nav a img{
+        width: 320px;
+    }
 }
 
 @media (min-width: 481px) and (max-width: 768px){
