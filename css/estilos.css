@@ -2,19 +2,21 @@
     font-family: xbka;
     src: url('../fonts/xbka/XBKA.OTF');
 }
+@font-face {
+    font-family: bembo;
+    src: url('../fonts/bembo/Bembo/Bembo/Bembo.otf');
+}
 *{
     margin: 0;
     padding: 0;
-    font-family: xbka;
-    color: black;
-   
-    
+    font-family: xbka, sans-serif;
+    color: black;    
 }
 
+/* NAVBAR */
 nav{
     background-color: whitesmoke;
 }
-
 #links li a{
     font-size: 15px;
     font-weight: lighter;
@@ -26,39 +28,72 @@ nav{
 #links li :hover{
     color: red;
 }
- h5{
-    font-size: 50px;
-    margin-bottom: 50px;
 
+/* DESTINOS */
+section h2{
+    text-align:center;
+    margin-top: 10px;
 }
+.card-group{
+    gap: 15px;
+    padding: 30px;    
+}
+.card-group .card{
+    border: none;  
+}
+.card-group .card:hover{
+    box-shadow: 0px 0px 10px black;
+}
+.card-img-top{
+    height: 300px; 
+}
+.card-group .card h5{
+    font-size: 25px;
+}
+
+
+/* CONOCENOS */
+#conocenos{   
+    background-position:center;    
+    color: black;
+    text-align: center;
+    height: 400px;
+}
+.conocenosTitulo{
+    font-size: 45px;
+    color: black;
+    font-weight: bold;
+}
+#conocenos p{
+    font-weight: lighter;
+    font-family: bembo;
+    font-size: 25px;    
+}
+
+/* ELEGIRNOS */
 .cardContainer{
     background-color: white;
-    padding: 20px;
-   
+    padding: 20px;  
 }
 .cardContainer h2{
     text-align: center;
-    font-size: 45px;
-    
+    font-size: 45px;    
 }
 .container{
     position: relative;
-    
     display: flex;
-    justify-content: space-between;
+    justify-content: space-evenly;
     flex-wrap: wrap;
 }
 .container .card {
   position: relative;
   border: none;
   background-color: white;
-
 }
 .container .card .face{
     width: 300px;
     height: 200px;
 }
-
 .container .card .face.face1{
     position: relative;
     background-color: rgb(234, 210, 210);
@@ -67,7 +102,7 @@ nav{
     align-content: center;
     align-items: center;
     z-index: 1;
-    transform: translateY(100px);
+    transform: translateY(100px);    
 }
 .container .card:hover .face.face1{
     transform: translateY(0);
@@ -76,14 +111,11 @@ nav{
     inset 20px 0 80px rgba(255, 0, 0, 0.788),
     inset -20px 0 80px rgb(242, 243, 243),
     0 0 50px #fff,
-
 }
-.container .card .face.face1 .content{
-   
+.container .card .face.face1 .content{ 
     transition: 0.5s;
     text-align: center;
 }
-
 .container .card .face.face1 .content i{
     font-size: 3em;
     color: white;
@@ -93,9 +125,8 @@ nav{
     font-size: 1em;
     color: white;
     text-align: center;
-
 }
-.container .card .face.face2{
+.container .card .face.face2{ 
     position: relative;
     background: whitesmoke;
     display: flex;
@@ -109,68 +140,31 @@ nav{
 .container .card:hover .face.face2{
     transform:translateY(0)
 }
-#conocenos{
-    
-    background-position:center;
-    
-    color: black;
-    text-align: center;
-    height: 400px;
-}
-.conocenosTitulo{
-    font-size: 45px;
-    color: black;
-    font-weight: bold;
-}
-#conocenos p{
-    font-weight: lighter;
+.container .card .face.face2 .content p{
+    font-family: bembo;
+    font-size: 20px;
 }
 
-section h2{
-    text-align:center;
-    margin-top: 10px;
-}
-.card-group{
-    gap: 15px;
-    padding: 30px;
-    
-}
-.card-group .card{
-    border: none;
-   
-}
-.card-group .card:hover{
-    box-shadow: 0px 0px 10px black;
-}
-.card-img-top{
-    height: 300px;
- 
-}
-.card-group .card h5{
-    font-size: 25px;
-}
-
-
-
-
+/* FOOTER */
 
 #footer{
+    background-color: white;
+}
+.redes{
     display: flex;
-    flex-direction: column;
-    align-items: center;
-    background-color: rgba(255, 0, 0, 0.923);
-  
-    
-
+    justify-content: space-around;
 }
 #footer ul li{
     text-decoration: none;
     list-style: none;
-   
-    
+}
+.footerFinal{
+   display: flex;
+   justify-content: center;
+   align-items: center;
 }
 
-
+/* LOGO WP */
 .logoWp{
     position: fixed;
     line-height: 55px;
@@ -192,6 +186,16 @@ section h2{
 }
 
 @media (min-width: 481px) and (max-width: 768px){
+    .card-group{
+        display: flex;
+        flex-direction: column;
+    }
+    .container{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        align-content: center;
+    }
 
 }
 @media (min-width: 769px) and (max-width: 1023px){
