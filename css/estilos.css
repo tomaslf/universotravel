@@ -209,6 +209,9 @@ section h2{
 }
 
 @media (min-width: 320px) and (max-width: 480px){
+    .carousel-inner img{
+        height: 300px;
+    }
     .container{
         display: flex;
         flex-direction: column;
@@ -227,6 +230,9 @@ section h2{
 }
 
 @media (min-width: 481px) and (max-width: 768px){
+    .carousel-inner img{
+        height: 400px;
+    }
     .card-group{
         display: flex;
         flex-direction: column;
