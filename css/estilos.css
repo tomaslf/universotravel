@@ -9,8 +9,10 @@
 *{
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
     font-family: xbka, sans-serif;
-    color: black;    
+    color: black;  
+    
 }
 
 /* NAVBAR */
@@ -54,25 +56,32 @@ section h2{
 
 /* CONOCENOS */
 #conocenos{   
-    background-position:center;    
+    background-image: linear-gradient(to bottom, white, grey); 
     color: black;
     text-align: center;
-    height: 400px;
+   
+}
+#conocenos img{
+ height: 450px;
+ padding: 20px;
+ border-radius: 25px;
 }
 .conocenosTitulo{
     font-size: 45px;
     color: black;
     font-weight: bold;
+    margin-top: 15px;
 }
 #conocenos p{
     font-weight: lighter;
     font-family: bembo;
-    font-size: 25px;    
+    font-size: 25px;   
+    margin-top: 10px;
+     
 }
 
 /* ELEGIRNOS */
 .cardContainer{
-   
     background-color: white;
     padding: 20px;  
 }
@@ -212,6 +221,11 @@ section h2{
     header nav a img{
         width: 320px;
     }
+    #conocenos img{
+        height: 300px;
+        padding: 20px;
+        border-radius: 50px;
+       }
 }
 
 @media (min-width: 481px) and (max-width: 768px){
