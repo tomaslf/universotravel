@@ -72,6 +72,7 @@ section h2{
 
 /* ELEGIRNOS */
 .cardContainer{
+   
     background-color: white;
     padding: 20px;  
 }
@@ -86,6 +87,7 @@ section h2{
     flex-wrap: wrap;
 }
 .container .card {
+    
   position: relative;
   border: none;
   background-color: white;
@@ -128,7 +130,9 @@ section h2{
 }
 .container .card .face.face2{ 
     position: relative;
-    background: whitesmoke;
+    background: rgb(225, 215, 215);
+   
+    background-position: center;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -140,19 +144,44 @@ section h2{
 .container .card:hover .face.face2{
     transform:translateY(0)
 }
+.container .card .face.face2 .content{
+    text-align: center;
+}
 .container .card .face.face2 .content p{
     font-family: bembo;
+    font-size: 21px;
+}
+.container .card .face.face2 .content ul li{
+    list-style: none;
+    font-family: bembo;
     font-size: 20px;
+    text-align: justify;
 }
 
 /* FOOTER */
 
 #footer{
+    margin-top: 20px;
     background-color: white;
+    box-shadow: 0px 0px 25px rgb(65, 1, 1);
 }
 .redes{
+   
     display: flex;
-    justify-content: space-around;
+    justify-content: space-evenly;
+    margin-bottom: 10px;
+    
+}
+.redes a img{
+    width: 30px;
+    height: 30px;
+    margin-right: 5px;
+}
+.redes a{
+    margin-top: 20px;
+    text-decoration: none;
+    color: black;
+    
 }
 #footer ul li{
     text-decoration: none;
