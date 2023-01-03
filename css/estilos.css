@@ -11,10 +11,12 @@
     padding: 0;
     box-sizing: border-box;
     font-family: xbka, sans-serif;
-    color: black;  
+    color: white;  
     
 }
-
+body{
+    background-color: black;
+}
 /* NAVBAR */
 nav{
     background-color: whitesmoke;
@@ -38,10 +40,12 @@ section h2{
 }
 .card-group{
     gap: 15px;
-    padding: 30px;    
+    padding: 30px;
+       
 }
 .card-group .card{
     border: none;  
+    background-color: black; 
 }
 .card-group .card:hover{
     box-shadow: 0px 0px 10px black;
@@ -60,10 +64,10 @@ section h2{
 
 
 /* CONOCENOS */
-#conocenos{   
-    background-image: linear-gradient(to bottom, white, grey); 
+#conocenos{       
     color: black;
     text-align: center;
+    background-color: white;
    
 }
 #conocenos img{
@@ -73,21 +77,22 @@ section h2{
 }
 .conocenosTitulo{
     font-size: 45px;
-    color: black;
     font-weight: bold;
     margin-top: 15px;
+    color: black;
 }
 #conocenos p{
     font-weight: lighter;
     font-family: bembo;
     font-size: 25px;   
     margin-top: 10px;
+    color: black;
      
 }
 
 /* ELEGIRNOS */
 .cardContainer{
-    background-color: white;
+    background-color: black;
     padding: 20px;  
 }
 .cardContainer h2{
@@ -102,9 +107,10 @@ section h2{
 }
 
 .container .card {
+    margin-top: 45px;
   position: relative;
   border: none;
-  background-color: white;
+  background-color: black;
 }
 .container .card .face{
     width: 350px;
@@ -112,7 +118,7 @@ section h2{
 }
 .container .card .face.face1{
     position: relative;
-    background-color: rgb(234, 210, 210);
+    background-color:black;
     display: flex;
     justify-content: center;
     align-content: center;
@@ -144,12 +150,12 @@ section h2{
 }
 .container .card .face.face2{ 
     position: relative;
-    background: white;
-   
+    background: black;
     background-position: center;
     display: flex;
     justify-content: center;
     align-items: center;
+    margin-top: 10px;
     padding: 20px;
     box-sizing: border-box;
     box-shadow: 0 20px  50px rgba(0,0,0, 8);
@@ -176,12 +182,12 @@ section h2{
 /* FOOTER */
 
 #footer{
-    padding-bottom: 15px;
     background-color: white;
-    box-shadow: 0px 0px 25px rgb(65, 1, 1);   
+    box-shadow: 0px 0px 25px rgba(191, 166, 166, 0.934);   
 }
 #footer p{
-    font-size: 20px;
+    font-size: 15px;
+    color: black;
 }
 #footer ul li{
     text-decoration: none;
@@ -199,6 +205,7 @@ section h2{
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    align-content: center;
 }
 
 .redes a img{
@@ -216,8 +223,12 @@ section h2{
    flex-direction: column;
    justify-content: center;
    align-items: center;
+   align-content: center;
 }
-
+#diseño{
+    font-size: 12px;
+    color: black;
+}
 /* LOGO WP */
 .logoWp{
     
@@ -228,6 +239,7 @@ section h2{
     z-index: 100;
 
 }
+
 
 @media (min-width: 320px) and (max-width: 480px){
     .carousel-inner img{
@@ -253,6 +265,14 @@ section h2{
         align-items: center;
         align-content: center;
        }
+       .contact{
+        margin-bottom: 20px;
+    }
+    .redes{
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+       
        
 }
 
@@ -270,9 +290,23 @@ section h2{
         align-items: center;
         align-content: center;
     }
+    .contact{
+        margin-bottom: 20px;
+    }
+    .redes{
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
     
 
 }
 @media (min-width: 769px) and (max-width: 1023px){
+    .contact{
+        margin-bottom: 20px;
+    }
+    .redes{
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
 
 }
