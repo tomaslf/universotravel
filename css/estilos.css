@@ -66,21 +66,19 @@ section h2{
 
 /* CONOCENOS */
 #conocenos{       
-    
     color: black;
     text-align: center;
-    background-color: rgb(84, 84, 84);
-    
+    background-color:rgb(84, 84, 84);
    
 }
 
 #conocenos img{
- height: 350px;
- padding: 20px;
- border-radius: 35px;
+ height: 400px;
+ 
  
 }
 .conocenosTitulo{
+    
     font-size: 45px;
     font-weight: bold;
     margin-top: 15px;
@@ -90,13 +88,18 @@ section h2{
     font-weight: lighter;
     font-family: bembo;
     font-size: 25px;   
-    margin-top: 10px;
+    margin-top: 40px;
     color: black; 
 }
 #conocenos a{
     text-decoration: none;
     font-weight: lighter;
     color: black;
+}
+/* LOGO SERVICIOS */
+#logoServices img{
+    width: 150px;
+    height: 150px;
 }
 
 /* ELEGIRNOS */
@@ -273,11 +276,7 @@ section h2{
     header nav a img{
         width: 320px;
     }
-    #conocenos img{
-        height: 300px;
-        padding: 20px;
-        border-radius: 50px;
-       }
+    
        #footer{
         display: flex;
         flex-direction: column;
