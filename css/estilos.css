@@ -276,6 +276,9 @@ section h2{
     header nav a img{
         width: 320px;
     }
+    #conocenos img{
+        height: 250px;
+    }
     
        #footer{
         display: flex;
