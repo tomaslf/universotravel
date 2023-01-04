@@ -11,15 +11,15 @@
     padding: 0;
     box-sizing: border-box;
     font-family: xbka, sans-serif;
-    color: white;  
+    color: black;  
     
 }
 body{
-    background-color: black;
+    background-color: rgb(84, 84, 84);
 }
 /* NAVBAR */
 nav{
-    background-color: rgb(132, 131, 131);
+    background-color: rgb(84, 84, 84);
 }
 #links li a{
     font-size: 15px;
@@ -45,7 +45,7 @@ section h2{
 }
 .card-group .card{
     border: none;  
-    background-color: black; 
+    background-color: rgb(84, 84, 84);
 }
 .card-group .card:hover{
     box-shadow: 0px 0px 10px black;
@@ -57,6 +57,7 @@ section h2{
     font-size: 25px;
 }
 .card-footer{
+    background-color: rgb(84, 84, 84);
     border: none;
     display: grid;
     place-items: center;
@@ -65,15 +66,19 @@ section h2{
 
 /* CONOCENOS */
 #conocenos{       
+    
     color: black;
     text-align: center;
-    background-color: rgb(132, 131, 131);
+    background-color: rgb(84, 84, 84);
+    
    
 }
+
 #conocenos img{
  height: 350px;
  padding: 20px;
  border-radius: 35px;
+ 
 }
 .conocenosTitulo{
     font-size: 45px;
@@ -86,13 +91,17 @@ section h2{
     font-family: bembo;
     font-size: 25px;   
     margin-top: 10px;
+    color: black; 
+}
+#conocenos a{
+    text-decoration: none;
+    font-weight: lighter;
     color: black;
-     
 }
 
 /* ELEGIRNOS */
 .cardContainer{
-    background-color: black;
+    background-color: rgb(84, 84, 84);
     padding: 20px;  
 }
 .cardContainer h2{
@@ -107,10 +116,10 @@ section h2{
 }
 
 .container .card {
-    margin-top: 45px;
+    margin-top: 50px;
   position: relative;
   border: none;
-  background-color: black;
+  background-color: rgb(84, 84, 84);
 }
 .container .card .face{
     width: 350px;
@@ -118,7 +127,7 @@ section h2{
 }
 .container .card .face.face1{
     position: relative;
-    background-color:black;
+    background-color: rgb(84, 84, 84);
     display: flex;
     justify-content: center;
     align-content: center;
@@ -150,7 +159,7 @@ section h2{
 }
 .container .card .face.face2{ 
     position: relative;
-    background: black;
+    background: rgb(84, 84, 84);
     background-position: center;
     display: flex;
     justify-content: center;
@@ -182,7 +191,7 @@ section h2{
 /* FOOTER */
 
 #footer{
-    background-color: rgb(132, 131, 131);
+    background-color: rgb(84, 84, 84);
     box-shadow: 0px 0px 25px rgba(191, 166, 166, 0.934);   
 }
 #footer p{
@@ -199,6 +208,11 @@ section h2{
     justify-content: center;
     align-items: center;
     align-content: center;
+    
+}
+.contact a{
+    text-decoration: none;
+    color: black;
 }
 .redes{
     display: flex;
@@ -228,6 +242,11 @@ section h2{
 #diseño{
     font-size: 12px;
     color: black;
+}
+#diseño a{
+    text-decoration: none;
+    color: black;
+
 }
 /* LOGO WP */
 .logoWp{
