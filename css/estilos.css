@@ -15,7 +15,7 @@
     
 }
 body{
-    background-color: rgb(84, 84, 84);
+   background-image: linear-gradient(to bottom, rgb(80, 80, 80),rgb(119, 119, 119));
 }
 /* NAVBAR */
 nav{
@@ -68,13 +68,14 @@ section h2{
 #conocenos{       
     color: black;
     text-align: center;
-    background-color:rgb(84, 84, 84);
-   
+    background-color:rgb(84, 84, 84)
+  
+    
 }
 
 #conocenos img{
  height: 400px;
- 
+ margin-bottom: 25px;
  
 }
 .conocenosTitulo{
@@ -97,9 +98,12 @@ section h2{
     color: black;
 }
 /* LOGO SERVICIOS */
+
+
 #logoServices img{
     width: 150px;
     height: 150px;
+    
 }
 
 /* ELEGIRNOS */
