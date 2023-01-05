@@ -124,9 +124,9 @@ section h2{
 
 .container .card {
     margin-top: 50px;
-  position: relative;
-  border: none;
-  background-color: rgb(84, 84, 84);
+    position: relative;
+    border: none;
+    background-color: rgb(84, 84, 84);
 }
 .container .card .face{
     width: 350px;
