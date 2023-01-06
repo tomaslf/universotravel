@@ -15,11 +15,12 @@
     
 }
 body{
-   background-image: linear-gradient(to bottom, rgb(80, 80, 80),rgb(119, 119, 119));
+   
+   background-color: rgb(84, 84, 84);
 }
 /* NAVBAR */
 nav{
-    background-color: rgb(84, 84, 84);
+    background-color: rgb(113, 112, 112);
 }
 #links li a{
     font-size: 15px;
@@ -33,14 +34,18 @@ nav{
     color: red;
 }
 
+
+
 /* DESTINOS */
 section h2{
     text-align:center;
     margin-top: 10px;
+    font-size: 45px;
 }
 .card-group{
     gap: 15px;
     padding: 30px;
+    
        
 }
 .card-group .card{
@@ -54,7 +59,7 @@ section h2{
     height: 300px; 
 }
 .card-group .card h5{
-    font-size: 25px;
+    font-size: 20px;
 }
 .card-footer{
     background-color: rgb(84, 84, 84);
@@ -68,7 +73,7 @@ section h2{
 #conocenos{       
     color: black;
     text-align: center;
-    background-color:rgb(84, 84, 84)
+    background-color:rgb(84, 84, 84);
   
     
 }
@@ -100,6 +105,10 @@ section h2{
 /* LOGO SERVICIOS */
 
 
+#logoServices h2{
+   
+    font-size: 45px;
+}
 #logoServices img{
     width: 150px;
     height: 150px;
@@ -194,11 +203,14 @@ section h2{
     font-size: 20px;
     text-align: justify;
 }
-
+hr{
+    height: 5px;
+    background-color: rgb(255, 255, 255);
+}
 /* FOOTER */
 
 #footer{
-    background-color: rgb(84, 84, 84);
+    background-color: rgb(149, 148, 148);
     box-shadow: 0px 0px 25px rgba(191, 166, 166, 0.934);   
 }
 #footer p{
