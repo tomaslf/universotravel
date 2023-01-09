@@ -191,16 +191,17 @@ section h2{
 }
 .container .card .face.face2 .content{
     text-align: center;
+   
 }
 .container .card .face.face2 .content p{
-    margin-top: 20px;
+    margin-top: 55px;
     font-family: bembo;
-    font-size: 21px;
+    font-size: 15px;
 }
 .container .card .face.face2 .content ul li{
     list-style: none;
     font-family: bembo;
-    font-size: 20px;
+    font-size: 15px;
     text-align: justify;
 }
 hr{
