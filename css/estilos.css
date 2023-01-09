@@ -13,10 +13,12 @@
     font-family: xbka, sans-serif;
     color: black;  
     
+    
 }
 body{
    
    background-color: rgb(84, 84, 84);
+   overflow-x: hidden;
 }
 /* NAVBAR */
 nav{
@@ -207,6 +209,7 @@ section h2{
 hr{
     height: 5px;
     background-color: rgba(238, 235, 235, 0.462);
+    overflow-x: hidden;
 }
 /* FOOTER */
 
@@ -281,6 +284,22 @@ hr{
 
 
 @media (min-width: 320px) and (max-width: 480px){
+    body{
+        overflow-x: hidden;
+    }
+    section h2{
+        font-size: 30px;
+    }
+    .conocenosTitulo{
+        font-size: 30px;
+    }
+    #logoServices h2{
+        font-size: 30px;
+    }
+    .cardContainer h2{
+        font-size: 30px;
+
+    }
     .carousel-inner img{
         height: 300px;
     }
@@ -296,6 +315,9 @@ hr{
     #conocenos img{
         height: 250px;
     }
+    #conocenos p{
+        font-size: 20px;
+    }
     
        #footer{
         display: flex;
@@ -309,6 +331,12 @@ hr{
     .redes{
         margin-top: 20px;
         margin-bottom: 20px;
+    }
+   
+    #logoServices img{
+        width: 150px;
+        height: 150px;
+        
     }
        
        
