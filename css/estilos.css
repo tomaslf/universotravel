@@ -6,6 +6,10 @@
     font-family: bembo;
     src: url('../fonts/bembo/Bembo/Bembo/Bembo.otf');
 }
+@font-face {
+    font-family: space;
+    src: url(../fonts/Space_Grotesk/static/SpaceGrotesk-Regular.ttf);
+}
 *{
     margin: 0;
     padding: 0;
@@ -73,6 +77,8 @@ section h2{
 }
 .card-img-top{
     height: 300px; 
+    
+    
 }
 .card-group .card h5{
     font-size: 20px;
@@ -90,13 +96,16 @@ section h2{
     color: black;
     text-align: center;
     background-color: rgb(115, 115, 115);
-  
+   
     
 }
 
 #conocenos img{
  height: 400px;
  margin-bottom: 25px;
+ font-weight: 400;
+ font-family: space;
+
  
 }
 .conocenosTitulo{
@@ -107,8 +116,8 @@ section h2{
     color: black;
 }
 #conocenos p{
-    font-weight: lighter;
-    font-family: bembo;
+    font-weight: 400;
+    font-family: space;
     font-size: 25px;   
     margin-top: 40px;
     color: black; 
@@ -191,7 +200,7 @@ section h2{
 }
 .container .card .face.face2{ 
     position: relative;
-    background: rgb(84, 84, 84);
+    background: rgba(128, 127, 127, 0.678);
     background-position: center;
     display: flex;
     justify-content: center;
@@ -211,12 +220,14 @@ section h2{
 }
 .container .card .face.face2 .content p{
     margin-top: 55px;
-    font-family: bembo;
+    font-weight: 400;
+    font-family: space;
     font-size: 15px;
 }
 .container .card .face.face2 .content ul li{
     list-style: none;
-    font-family: bembo;
+    font-weight: 400;
+    font-family: space;
     font-size: 15px;
     text-align: justify;
 }
