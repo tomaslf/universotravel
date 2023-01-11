@@ -15,13 +15,13 @@
     padding: 0;
     box-sizing: border-box;
     font-family: xbka, sans-serif;
-    color: black;  
+    color: white;  
     
     
 }
 body{
    
-   background-color: rgb(115, 115, 115);
+   background-color: black;
    overflow-x: hidden;
 }
 /* NAVBAR */
@@ -30,7 +30,7 @@ header{
    left: 0;
    right: 0;
    z-index: 1000;
-
+   overflow-x: hidden;
 
 }
 nav{
@@ -70,12 +70,12 @@ section h2{
 }
 .card-group .card{
     border: none;  
-    background-color: rgb(84, 84, 84);
+    background-color: black;
   
     
 }
 .card-group .card:hover{
-    box-shadow: 0px 0px 10px black;
+    box-shadow: 0px 0px 10px wheat;
 }
 .card-img-top{
     height: 300px; 
@@ -86,7 +86,7 @@ section h2{
     font-size: 20px;
 }
 .card-footer{
-    background-color: rgb(84, 84, 84);
+    background-color: black;
     border: none;
     display: grid;
     place-items: center;
@@ -97,7 +97,9 @@ section h2{
 #conocenos{       
     color: black;
     text-align: center;
-    background-color: rgb(115, 115, 115);
+    background-color: white;
+    
+    
    
     
 }
@@ -130,7 +132,12 @@ section h2{
     color: black;
 }
 /* LOGO SERVICIOS */
-
+#logoServices{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.586),rgba(0, 0, 0, 0.553)), url(../images/ruta1.jpg);
+    background-position:center ;
+    background-repeat: no-repeat;
+    padding-bottom: 20px;
+}
 
 #logoServices h2{
    
@@ -139,12 +146,13 @@ section h2{
 #logoServices img{
     width: 125px;
     height: 120px;
+    margin-top: 20px;
     
 }
 
 /* ELEGIRNOS */
 .cardContainer{
-    background-color: rgb(115, 115, 115);
+    background-color: black;
     padding: 20px;  
 }
 .cardContainer h2{
@@ -162,7 +170,7 @@ section h2{
     margin-top: 50px;
     position: relative;
     border: none;
-    background-color: rgb(115, 115, 115);
+    background-color: black;
 }
 .container .card .face{
     width: 350px;
@@ -170,7 +178,7 @@ section h2{
 }
 .container .card .face.face1{
     position: relative;
-    background-color: rgb(84, 84, 84);
+    background-color: black;
     display: flex;
     justify-content: center;
     align-content: center;
@@ -202,7 +210,7 @@ section h2{
 }
 .container .card .face.face2{ 
     position: relative;
-    background: rgba(128, 127, 127, 0.678);
+    background: rgba(85, 85, 85, 0.451);
     background-position: center;
     display: flex;
     justify-content: center;
@@ -233,11 +241,7 @@ section h2{
     font-size: 20px;
     text-align: justify;
 }
-hr{
-    height: 5px;
-    background-color: rgba(238, 235, 235, 0.462);
-    overflow-x: hidden;
-}
+
 /* FOOTER */
 
 #footer{
@@ -300,7 +304,7 @@ hr{
 }
 /* LOGO WP */
 .logoWp{
-    
+    overflow-x: hidden;
     position: fixed;
     line-height: 55px;
     bottom: 50px;
@@ -311,6 +315,7 @@ hr{
 
 
 @media (min-width: 320px) and (max-width: 480px){
+    
     body{
         overflow-x: hidden;
     }

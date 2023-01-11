@@ -17,13 +17,12 @@
 }
 body{
    
-   background-color: rgb(115, 115, 115);
-   overflow-x: hidden;
+   background-color: black;
 }
 /* NAVBAR */
 
 nav{
-    background-color: rgb(115, 115, 115);
+    background-color: rgba(74, 74, 74, 0.562);
 }
 
 #links li a{
