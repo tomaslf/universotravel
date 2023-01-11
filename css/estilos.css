@@ -97,7 +97,7 @@ section h2{
 #conocenos{       
     color: black;
     text-align: center;
-    background-color: rgb(115, 115, 115);
+    background-color: rgb(82, 82, 82);
    
     
 }
@@ -144,7 +144,7 @@ section h2{
 
 /* ELEGIRNOS */
 .cardContainer{
-    background-color: rgb(115, 115, 115);
+    background-color: rgb(82, 82, 82);
     padding: 20px;  
 }
 .cardContainer h2{
@@ -162,7 +162,7 @@ section h2{
     margin-top: 50px;
     position: relative;
     border: none;
-    background-color: rgb(115, 115, 115);
+    background-color: rgb(82, 82, 82);
 }
 .container .card .face{
     width: 350px;
@@ -233,11 +233,7 @@ section h2{
     font-size: 20px;
     text-align: justify;
 }
-hr{
-    height: 5px;
-    background-color: rgba(238, 235, 235, 0.462);
-    overflow-x: hidden;
-}
+
 /* FOOTER */
 
 #footer{
