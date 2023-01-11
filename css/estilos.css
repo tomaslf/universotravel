@@ -97,7 +97,7 @@ section h2{
 #conocenos{       
     color: black;
     text-align: center;
-    background-color: white;
+    background-color: rgb(96, 96, 96);
     
     
    
@@ -133,14 +133,12 @@ section h2{
 }
 /* LOGO SERVICIOS */
 #logoServices{
-    background-image: linear-gradient(rgba(0, 0, 0, 0.586),rgba(0, 0, 0, 0.553)), url(../images/ruta1.jpg);
-    background-position:center ;
-    background-repeat: no-repeat;
-    padding-bottom: 20px;
+    background-color: white;
+    padding: 40px;
 }
 
 #logoServices h2{
-   
+   color: black;
     font-size: 45px;
 }
 #logoServices img{
