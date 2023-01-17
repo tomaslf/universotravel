@@ -1,4 +1,4 @@
 window.addEventListener("scroll", function(){
-    let nav = document.querySelector("nav");
+    let nav = document.getElementById("nav");
     nav.classList.toggle("abajo",window.scrollY>1);
 })
