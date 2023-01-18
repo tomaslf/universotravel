@@ -382,8 +382,9 @@ section h2{
         height: 400px;
     }
     .card-group{
-        display: flex;
-        flex-direction: column;
+        display: grid;
+        place-items: center;
+
     }
     .card-group .card{
         max-width: 500px;
