@@ -134,11 +134,11 @@ section h2{
 }
 /* LOGO SERVICIOS */
 #logoServices{
-    background-color: #2e2f32;
+    background-color: whitesmoke;
 }
 
 #logoServices h2{
-   
+    color: #13130e;
     font-size: 45px;
 }
 #logoServices img{
