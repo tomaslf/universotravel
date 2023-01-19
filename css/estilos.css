@@ -22,6 +22,7 @@
 body{
    background-color: #13130e;
    overflow-x: hidden;
+   
 }
 /* NAVBAR */
 .header{
@@ -33,12 +34,14 @@ body{
 
 #nav{
     background-color: rgba(122, 122, 122, 0);
+    letter-spacing:1px;
 }
 #nav.abajo{
     background-color: rgba(105, 105, 105, 0.593);
 }
 #imagesNavBar{
     background-color: #474747;
+    letter-spacing:1px;
 }
 .imagesTitle{
     font-size: 45px;
@@ -66,6 +69,7 @@ section h2{
     text-align:center;
     margin-top: 10px;
     font-size: 45px;
+    letter-spacing:1px;
 }
 .card-group{
     gap: 15px;
@@ -88,6 +92,7 @@ section h2{
 }
 .card-group .card h5{
     font-size: 20px;
+    letter-spacing:2px;
 }
 .card-footer{
     margin-bottom: 20px;
