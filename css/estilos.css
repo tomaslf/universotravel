@@ -103,20 +103,16 @@ section h2{
 
 
 /* CONOCENOS */
-#conocenos{     
-    
-    text-align: center;
+#conocenos{         
+    text-align: center; 
 
-    
 }
 
 #conocenos img{
- height: 400px;
+ height: 450px;
  margin-bottom: 25px;
  font-weight: 400;
  font-family: space;
- 
-
  
 }
 .conocenosTitulo{
